@@ -1,6 +1,6 @@
 // const baseUrl = process.env.API || "https://flipkart-rest-server.herokuapp.com";
 // const baseUrl = "http://localhost:2000";
-const baseUrl = "https://hackerramp-backend.herokuapp.com/";
+const baseUrl = process.env.API || "https://hackerramp-backend.herokuapp.com";
 
 export const api = `${baseUrl}/api`;
 
